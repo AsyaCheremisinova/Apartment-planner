@@ -1,0 +1,17 @@
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\bin\Debug\netstandard2.0\ApartmentPlanner.deps.json
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\bin\Debug\netstandard2.0\ApartmentPlanner.dll
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\bin\Debug\netstandard2.0\ApartmentPlanner.pdb
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\ApartmentPlanner.csproj.AssemblyReference.cache
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\ApartmentPlanner.GeneratedMSBuildEditorConfig.editorconfig
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\ApartmentPlanner.AssemblyInfoInputs.cache
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\ApartmentPlanner.AssemblyInfo.cs
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\ApartmentPlanner.csproj.CoreCompileInputs.cache
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\XamlC.stamp
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\ApartmentPlanner.dll
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\refint\ApartmentPlanner.dll
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\ApartmentPlanner.pdb
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\ref\ApartmentPlanner.dll
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\obj\Debug\netstandard2.0\ProjectPage.xaml.g.cs
+E:\7 семестр\Мобилки\ApartmentPlanner\ApartmentPlanner\ApartmentPlanner\bin\Debug\netstandard2.0\jsconfig.json

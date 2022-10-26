@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "name": "Детская комната",
+      "image": "imageOne.png",
+      "status": "Изменено: Сегодня"
+    },
+    {
+      "name": "Квартира 1",
+      "image": "imageTwo.png",
+      "status": "Изменено: Вчера"
+    },
+    {
+      "name": "Квартира 2",
+      "image": "imageThree.png",
+      "status": "Изменено: 2 недели назад"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApartmentPlanner.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+
+    <AbsoluteLayout BackgroundColor="#FFFFFF" >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4*"></RowDefinition>
+                <RowDefinition Height="9*"></RowDefinition>
+            </Grid.RowDefinitions>
+       <StackLayout Grid.Row="0">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0" Grid.Row="0"  Text="Моя квартира" HorizontalTextAlignment="Start"  TextColor="#282828" FontSize="26" Margin="20, 10, 0, 0"/>
+            <Label Grid.Column="0" Grid.Row="1" Text="Проекты" HorizontalTextAlignment="Start"   HeightRequest="20" TextColor="#282828" FontSize="18" Margin="20, 0, 0, 0"/>
+
+            <ImageButton Grid.Column="1" Grid.RowSpan="2" Source="Avatar.png" Clicked="ImageButton_Clicked" Margin="0, 0, 16, 0" HorizontalOptions="End"  Padding="0,0,0,30" BackgroundColor="#FFFFFF" WidthRequest="90"/>
+        </Grid>
+        </StackLayout>
+
+            <StackLayout Grid.Row="1" WidthRequest="790" Margin="10" HeightRequest="300">
+
+                <ListView x:Name="ListViewProject" RowHeight="100" >
+                    <ListView.ItemTemplate >
+                 <DataTemplate >
+                            <ViewCell  >
+                                <StackLayout HeightRequest="100" VerticalOptions="End">
+                                        <Frame HorizontalOptions="Center"  BorderColor="#026670" WidthRequest="730" HeightRequest="45" CornerRadius="15" >
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition></ColumnDefinition>
+                                                <ColumnDefinition></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                            </Grid.RowDefinitions>
+                                        <Image  Grid.Column="0" Grid.RowSpan="2" Source="{Binding Image}" HorizontalOptions="Start" />
+                                            <Label Grid.Column="1" Grid.Row="0"  Text="{Binding Name}" HorizontalTextAlignment="Center"  TextColor="#282828" FontSize="17" />
+                                            <Label Grid.Column="1" Grid.Row="1" Text="{Binding Status}" HorizontalTextAlignment="Center"  TextColor="#282828" FontSize="15"/>
+
+                                    </Grid>
+                                    </Frame>
+                                </StackLayout>
+                            </ViewCell>
+                            </DataTemplate>
+               </ListView.ItemTemplate>
+
+                       
+                          
+                </ListView>
+                </StackLayout>
+        </Grid>
+
+        <StackLayout AbsoluteLayout.LayoutBounds="1,0,224,270" AbsoluteLayout.LayoutFlags="PositionProportional"  x:Name="Menuu"  HeightRequest="270" WidthRequest="224"  IsVisible="False">
+            <Frame BackgroundColor="#D9D9D9" CornerRadius="15" WidthRequest="224" HeightRequest="270"  Padding="0" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <ImageButton  Grid.Row="0" Clicked="ImageButton_Clicked_1"  Source="Avatar.png"  Margin="100,4,0,0"  BackgroundColor="#D9D9D9" WidthRequest="1" HeightRequest="1"/>
+                    <Grid Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="9*"></RowDefinition>
+                            <RowDefinition Height="9*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Text="Анастасия Черемисинова" FontSize="17" HorizontalTextAlignment="Center"></Label>
+                        <Label Grid.Row="1" Text="asyaCheremisinova@gmail.com" FontSize="13" HorizontalTextAlignment="Center"></Label>
+                        <Line Grid.Row="2" Stroke="#000000" X1="0" X2="224" Y1="0" Y2="0" Opacity="20"></Line>
+                    </Grid>
+                    
+                    <Grid Grid.Row="2" VerticalOptions="Center">
+                        <Button Text="Настройки" ImageSource="Setting.png" ></Button>
+                    </Grid>
+                    <Grid Grid.Row="3" VerticalOptions="Start">
+                        <Button Text="Выйти" ImageSource="Logout.png" ></Button>                        
+                    </Grid>
+
+
+                </Grid>
+            </Frame>
+
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>
